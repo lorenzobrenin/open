@@ -129,10 +129,12 @@
 -->
     <table>
         <tr>
-            <th> <a href="es_Tab_list.php?order=model">Model</a> </th>
-            <th> <a href="es_Tab_list.php?order=brand">Brand</a> </th>
-            <th> <a href="es_Tab_list.php?order=engine_size">Engine Size</a> </th>
-            <th> <a href="es_Tab_list.php?order= ' DESC'"><button>DESC</button></a> </th>
+            <th> <a href="es_Tab_list.php?order=model ASC">Model</a><span>  <a href="es_Tab_list.php?order=model DESC"><button>v</button></a> </span></th>
+            <th> <a href="es_Tab_list.php?order=brand ASC">Brand</a><span>  <a href="es_Tab_list.php?order=brand DESC"><button>v</button></a></span></th>
+            <th> <a href="es_Tab_list.php?order=engine_size ASC">Engine Size</a><span>  <a href="es_Tab_list.php?order=engine_size DESC"><button>v</button></a></span></th>
+        </th>
+        
+            <!-- <th> <a href="es_Tab_list.php?order= ' DESC'"><button>DESC</button></a> </th> -->
         </tr>
         <?php //print records DYNAMIC
         foreach ($records as $record){
